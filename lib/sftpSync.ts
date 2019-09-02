@@ -96,6 +96,7 @@ export class SftpSync {
           username: this.config.username,
           password: this.config.password,
           passphrase: this.config.passphrase,
+          readyTimeout: 99999,
           privateKey: privKeyRaw,
           agent: this.config.agent
         });
