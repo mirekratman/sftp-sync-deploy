@@ -100,7 +100,6 @@ export class SftpSync {
           agent: this.config.agent
         });
     });
-    console.log(this.client);
   }
 
   /**
